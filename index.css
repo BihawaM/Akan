@@ -1,8 +1,48 @@
 body {
-   background-image: url(/images/background\ texture1.jpeg); 
+    background-color: blanchedalmond;
+    font-weight: bold;
 }
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+.col-md-8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    margin-top: 8%;
+}
+
+.col-md-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    margin-top: 8%;
+}
+
+.row h1 {
+    color: black;
+    text-align: center;
+    font-family:cursive;
+    height: 60px;
+    font-size: 47px;
+    padding-left: 50px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+p {
+    color: black;
+    border-right: 1px solid grey;
+    padding: 10px;
+    font-family:cursive;
+    font-size: 20px;
+}
+
+
+h3,
+.form-group {
+    color: black;
+    font-family:cursive;
 }
