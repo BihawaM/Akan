@@ -10,3 +10,10 @@ function myInput() {
     dayOfMonth = parseInt(document.getElementById("day-of-month").value);
 }
 
+function calculateDay() {
+    myInput();
+    dayOfBirth = (((cc / 4) - 2 * cc - 1) + ((5 * year / 4)) + ((26 * (month + 1) / 10)) + dayOfMonth) % 7;
+    dayOfBirth -= 1;
+    return (Math.floor(dayOfBirth));
+    Console.log(dayOfBirth);
+}
