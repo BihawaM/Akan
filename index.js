@@ -72,3 +72,8 @@ function check() {
     }
 }
 
+function checkDayOfBirth() {
+    day = calculateDay();
+    // console.log("pass");
+    check();
+}
