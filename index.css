@@ -24,7 +24,7 @@ img {
 .row h1 {
     color: black;
     text-align: center;
-    font-family:cursive;
+    font-family: 'Do Hyeon', sans-serif;
     height: 60px;
     font-size: 47px;
     padding-left: 50px;
@@ -36,7 +36,7 @@ p {
     color: black;
     border-right: 1px solid grey;
     padding: 10px;
-    font-family:cursive;
+    font-family: 'Do Hyeon', sans-serif;
     font-size: 20px;
 }
 
@@ -44,5 +44,5 @@ p {
 h3,
 .form-group {
     color: black;
-    font-family:cursive;
+    font-family: 'Do Hyeon', sans-serif;
 }
